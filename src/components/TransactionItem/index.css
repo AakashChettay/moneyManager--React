@@ -1,0 +1,64 @@
+/* index.css */
+
+/* Data row in table */
+.rowInTab {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 24px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title column */
+.titleCol {
+  flex: 2;
+  margin: 0;
+}
+
+/* Amount column */
+.amtCol {
+  flex: 1;
+  margin: 0;
+}
+
+/* Type column */
+.typeCol {
+  flex: 1;
+  margin: 0;
+}
+
+/* Delete button */
+.delBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.delBtn img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 767px) {
+  .titleCol {
+    font-size: 12px;
+  }
+  .amtCol {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .typeCol {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .delBtn img {
+    width: 20px;
+    height: 20px;
+  }
+}

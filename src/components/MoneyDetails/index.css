@@ -1,0 +1,94 @@
+/* index.css */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* Money details container */
+.moneyDetailsContainer {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Money details card */
+.moneyDetailsCard {
+  border-radius: 8px;
+  padding: 20px 24px;
+  text-align: center;
+  width: 25vw;
+  height: 20vh;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Icon style */
+.iconStyle {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+/* Text container */
+.textContainer {
+  color: #7e858e;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+/* Your balance heading */
+.yourBalHead {
+  margin: 0;
+  font-size: 17px;
+}
+
+.balanceParaStyle {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+/* Balance style */
+.balanceStyle {
+  margin: 8px 0;
+  font-size: 24px;
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+/* Income style */
+.incomeStyle {
+  margin: 8px 0;
+  font-size: 24px;
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+/* Expense style */
+.expenseStyle {
+  margin: 8px 0;
+  font-size: 24px;
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+@media (max-width: 767px) {
+  .moneyDetailsContainer {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+  }
+  .moneyDetailsCard {
+    min-width: 80vw;
+  }
+}
