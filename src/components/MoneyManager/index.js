@@ -132,7 +132,7 @@ class MoneyManager extends Component {
           <h1 className="nameHeading">Hi, Edward Newgate</h1>
           <p className="paraStyle">
             Welcome back to your{' '}
-            <span className="spanStyle">Money Manager</span>
+            <span className="spanStyle">Budget Buddy</span>
           </p>
         </div>
         <MoneyDetails balance={balance} income={income} expenses={expenses} />
